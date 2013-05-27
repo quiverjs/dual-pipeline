@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-dual-pipeline",
+  "desription": "Chain a stream through two different pipelines",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/dual-pipeline",
+  "repository": {
+    "url": "git@github.com:quiverjs/dual-pipeline.git"
+  },
+  "dependencies": {
+    "quiver-error": ">=0.0.2",
+    "quiver-split-stream": ">=0.0.1",
+    "async": "0.2.x"
+  },
+  "devDependencies": {
+    "quiver-stream-convert": ">=0.0.6",
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/dual-pipeline/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/dual-pipeline"
+}
