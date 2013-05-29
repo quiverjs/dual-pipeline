@@ -6,7 +6,7 @@
   },
   "name": "quiver-dual-pipeline",
   "desription": "Chain a stream through two different pipelines",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/quiverjs/dual-pipeline",
   "repository": {
     "url": "git@github.com:quiverjs/dual-pipeline.git"
@@ -14,7 +14,7 @@
   "dependencies": {
     "quiver-error": ">=0.0.2",
     "quiver-split-stream": ">=0.0.1",
-    "async": "0.2.x"
+    "quiver-async-tasks": ">=0.0.2"
   },
   "devDependencies": {
     "quiver-stream-convert": ">=0.0.6",
